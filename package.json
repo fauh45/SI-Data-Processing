@@ -1,0 +1,25 @@
+{
+  "name": "si-data-processing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fauh45/SI-Data-Processing.git",
+  "author": "Fauzan Lubis <fauzanfauh45@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "@types/sentiment": "^5.0.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "add-update-field": "ts-node scripts/addUpdateFalse.ts"
+  },
+  "dependencies": {
+    "@asmagin/google-translate-api": "^8.0.2",
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.2.0",
+    "sentiment": "^5.0.2",
+    "wink-sentiment": "^5.0.2"
+  }
+}
